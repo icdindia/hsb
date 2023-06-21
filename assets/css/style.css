@@ -109,8 +109,8 @@ header img{
     left: 50%;
     transform: translate(-50%, -50%); */
     width: 100%;
-    height: 100%;
-    object-fit: fill;
+    height: auto;
+    /* object-fit: fill; */
 }
 }
 
@@ -118,6 +118,7 @@ header img{
   justify-content: start;
 }
 
-.fp-tableCell{
+.fp-tableCell , .fp-table{ 
   /* display: flex; */
+  /* height: 652px !important; */
 }
